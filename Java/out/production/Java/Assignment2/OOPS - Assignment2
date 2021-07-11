@@ -1,0 +1,22 @@
+1) Write An example implementing overriding and overloading (Polymorphism)?
+
+2) The Guessing Game:
+The guessing game involves a 'game' object and three 'player' objects. The game generates a random number between
+0 and 9, and the three player objects try to guess it.
+Write a program for the game.
+Classes:
+GuessGame.class
+Player.class
+GameLauncher.class
+The logic:
+i. The GameLauncher class is where the application starts; it has the main method.
+ii. In the main() method a GuessGame object is created, and its startGame() method is called.
+iii. The GuessGame objects startGame() method is where the entire game plays out.
+It creates three playerd, then thinkd of a random number(the target). It then asks each player to guess, checks the 
+result, and either prints out information about the winning players or asks them to guess again.
+
+3) Write an inheritance hierarchy for classes Quadrilateral , Trapezoid , Parallelogram ,
+Rectangle and Square . Use Quadrilateral as the superclass of the hierarchy. Create and use a Point
+class to represent the points in each shape. Make the hierarchy as deep (i.e., as many levels) as possible. Specify the instance variables and methods for each class. The private instance variables of
+Quadrilateral should be the x-y coordinate pairs for the four endpoints of the Quadrilateral.
+Write a program that instantiates objects of your classes and outputs each object’s area (except Quadrilateral)
