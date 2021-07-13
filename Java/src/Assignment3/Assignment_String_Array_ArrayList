@@ -1,0 +1,89 @@
+(Any 3 of 1-4)
+
+1. Given a string as input, write a program to convert the characters of given string into hexadecimal equivalent of ASCII values.
+	Examples :
+
+	Input : Geek
+	Output : 4765656b 
+
+	Input :  IronMan part 3
+	Output : 49726f6e4d616e20706172742033 
+
+
+2. Swap corner words and reverse middle characters
+	Write a Java program to take an input string and exchange the first and last word and revers the middle word.
+
+	Examples:
+
+	Input : Hello World GFG Welcomes You
+	Output :You semocleW GFG dlroW Hello
+
+3. Longest Common Substring in an Array of Strings
+	We are given a list of words sharing a common stem i.e the words originate from same word for ex: the words sadness, sadly and sad all originate from the stem ‘sad’.
+	Our task is to find and return the Longest Common Substring also known as stem of those words. In case there are ties, we choose the smallest one in alphabetical order.
+
+	Examples:
+
+	Input : grace graceful disgraceful gracefully
+	Output : grace
+
+	Input : sadness sad sadly
+	Output : sad
+
+4. An anagram is a word or a phrase made by transposing the letters of another word or phrase; for example, "parliament" is an anagram of "partial men," and "software" is an anagram of "swear oft." Write a program that figures out whether one string is an anagram of another string. The program should ignore white space and punctuation.
+
+
+5. 3. Write a Java program to print the following grid. Go to the editor
+
+	Expected Output :
+
+	        - -                                                                                            
+	      - - - -                                                                                            
+	    - - - - - -                                                                                          
+	  - - - - - - - -                                                                                           
+	- - - - - - - - - -                                                                                           
+	  - - - - - - - -                                                                                            
+	    - - - - - -                                                                                            
+	      - - - -                                                                                            
+	        - -                                                                                            
+	             
+
+6. Ludic numbers are obtained by considering list of natural numbers (starting from 2) and removing i-th number in i-th iteration (where i begins with 2). In every iteration, the first removed number is Ludic. 1 is considered as Ludic.
+
+			Process of generating Ludic numbers :
+
+			Ludic = {1, …}
+
+			Consider natural numbers from 2,
+			2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21 …
+
+			Delete every 2nd number
+			3, 5, 7, 9, 11, 13, 15, 17, 19, 21 ..
+			The first deleted number is 2.
+			Ludic = {1, 2, …}
+
+			Delete every 3rd number.
+			5, 7, 11, 13, 17, 19, 22 ..
+			The first deleted number is 3
+			Ludic = {1, 2, 3, …}
+
+			Delete every 4th number.
+			5, 7, 11, 13, 17, 19, 22 ..
+			The first deleted number is 5
+			Ludic = {1, 2, 3, 5, ..}
+
+			This process continues..
+
+	Given a number n, print all Ludic numbers smaller than or equal to n.
+
+	Examples :
+
+	Input : n = 10
+	Output : 1, 2, 3, 5, 7
+
+	Input : n = 25
+	Output : 1, 2, 3, 5, 7, 11, 13, 17, 23, 25 
+
+
+
+
