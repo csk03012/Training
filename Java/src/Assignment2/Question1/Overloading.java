@@ -26,7 +26,7 @@ class Children extends Overloading{
     }
 
     public String hello(String s){
-        System.out.println("1Hello method with String type argument: Overloading method.");
+        System.out.println("1Hello method with StringClass type argument: Overloading method.");
         return s;
     }
 }

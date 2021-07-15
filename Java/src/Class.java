@@ -16,7 +16,7 @@ public class Class {
 }
 
 class Driver{
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         // instance or object of class Class
         // java will create a default constructor if constructor not created.
         Class student1 = new Class();

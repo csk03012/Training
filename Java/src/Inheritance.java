@@ -7,7 +7,7 @@ public class Inheritance {
         this.b = b;
     }
 
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         Add add = new Add();
         add.set_values(15, 5);
         int x = add.adding();

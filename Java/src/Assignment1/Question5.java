@@ -14,8 +14,8 @@ public class Question5 {
         /*if(n==1)
             System.out.println('*');
         else{
-            String s1 = "*".repeat(n);
-            String s2 = "*" + " ".repeat(n-2) + "*";
+            StringClass s1 = "*".repeat(n);
+            StringClass s2 = "*" + " ".repeat(n-2) + "*";
 
             System.out.println(s1);
             for(int i=0; i<n-2; i++){

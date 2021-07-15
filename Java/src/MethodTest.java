@@ -8,7 +8,7 @@ public class MethodTest {
         System.out.println("Hello");
     }
 
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
 
         // calling the non-static method in static method
         MethodTest methodTest = new MethodTest();
@@ -20,7 +20,7 @@ public class MethodTest {
 }
 
 class driver{
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         // static method belongs to class instead of instance
         // accessing static method, it always accessed using method name
         MethodTest.Name1();

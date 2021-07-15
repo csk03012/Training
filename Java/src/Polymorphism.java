@@ -7,7 +7,7 @@ public class Polymorphism {
     public int func(){
         return 100;
     }
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         Polymorphism var1 = new Polymorphism();
         System.out.println(var1.func());
 

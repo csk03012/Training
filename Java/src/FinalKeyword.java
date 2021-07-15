@@ -27,7 +27,7 @@ Final Keyword:
         return (int) (a+b);
     }
 
-    public static void main(String[] args) {
+    public static void main(StringClass[] args) {
         FinalKeyword finalKeyword = new FinalKeyword();
         // we cannot initialize final variable;
 //         finalKeyword.fnl = 10;

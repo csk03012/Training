@@ -7,7 +7,7 @@ public class Question2 {
         System.out.print("Enter Integer: ");
 
 /*      int n = input.nextInt();
-        String s = "";
+        StringClass s = "";
         int x = n;
 
         s += (char) n%10;
