@@ -1,0 +1,23 @@
+1. Write a generic method printArray,which takes input of an array and prints each element of the array.
+   Print an array of Integer,Double,Character using the same method.
+
+2.Write a program that uses a stack to determine whether a string is a palindrome
+(i.e string is spelled identically backward and forward).The program should ignore
+spaces and punctuation.
+
+3. Write a program that concatenates two linked list objects of characters.Class
+ListConcatenate should include a static method concatenate that takes references to both
+list objects as arguments and concatenates the second list to the first list.
+
+
+4.In the classic problem of the Towers of Hanoi, you have 3 towers
+and N disks of different sizes which can slide onto any tower.
+The puzzle starts with disks sorted in ascending order of size form top to
+bottom (i.e., each disk sites on top of an even larger one). You have the following constraints:
+
+1. Only one disk can be moved at a time.
+2. A disk is slid off the top of one tower onto the next tower.
+3. A disk can only be placed on top of a larger disk.
+
+Write program to move the disks from the first tower to the last using stacks.
+

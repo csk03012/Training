@@ -1,0 +1,8 @@
+Write any java code and write two test classes for that code using
+JUnit framework. Create a test suite with the two test classes and
+then create a runner class that runs the test suite. In each test class,
+
+a) You should cover the following: positive test case, negative test cases
+and a test case that 'will' fail.
+b) Use a method to initialize all the variables required for test cases in a
+single method and make sure annotate this method with corresponding annotation.
