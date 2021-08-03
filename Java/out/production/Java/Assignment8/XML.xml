@@ -1,0 +1,13 @@
+<company>
+    <name>Beehyv</name>
+    <employees>
+        <e1>
+            <name>John Doe</name>
+            <experience>2 years</experience>
+        </e1>
+        <e2>
+            <name>Jane Doe</name>
+            <experience>3 years</experience>
+        </e2>
+    </employees>
+</company>

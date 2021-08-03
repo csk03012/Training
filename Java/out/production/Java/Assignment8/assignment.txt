@@ -1,0 +1,33 @@
+Write the following object  in JSON and XML notations.
+		
+Company company = new Company();
+		company.name = "Beehyv";
+company.employees = new Employee[ ];
+	Employee e1 = new Employee();
+e1.name = “John Doe”
+e1.experience = “2 years”
+	Employee e2 = new Employee();
+e2.name = “Jane Doe”
+e2.experience = “3 years”
+company.employees.push( e1 );
+company.employees.push( e2 );
+ 
+2) Explain the differences between JSON vs. XML?
+
+3) There is a way of describing XML data, how?
+
+4) What are XML entities used for?
+
+5)  What is an XML instance document?
+
+6)What is JSON? For what is used for?
+
+7) What is serialization and deserialization in JSON?
+
+8) What JS-specific properties are skipped by JSON.stringify method?
+ 
+9) Explain the difference between JSON and JSONP ?
+
+10) What is the use of JSON.stringify() function?
+ 
+

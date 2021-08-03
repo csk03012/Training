@@ -1,0 +1,54 @@
+2) JSON vs XML
+    i) JSON: javascript object notation, XML: eXtensible markup language
+    ii) One of the main differences is that the JSON can use arrays but XML cannot.
+    iii) And XML use end tag (</>) but JSON does not.
+    iv) In XML, key 'name' is enclosed in <> (open) and </> (closed) and values do
+        not use any of those while in JSON, key 'name' and values (both) is enclosed
+        in double quotes "".
+
+3) DTD (Document Type Declaration) is a way to describe the XML data which defines
+   the structure and legal elements and attributes of an XML document.
+
+4) It is used for representing an item of data within the XML document.
+
+5) Data present in XML file (well formed) is instance document.
+
+
+6) JSON:
+   i) Javascript object notation.
+   ii) It is basically text based format used to transmit ans store data,
+       it represents string format(text) of structured data based on
+       javascript object syntax.
+   iii) It is used when data is sent from server to a webpage or vice-versa.
+
+7) Serialization in JSON: It means converting an object into string.
+                          JSON.stringify() to serialize.
+   Deserialization in JSON: reverse of serialization, converts string into object.
+                            JSON.parse() to deserialize.
+
+8) JSON.stringify() skipped some properties which are JS-specific:
+   Functions (method)
+   Symbolic keys and values
+   keys that store undefined.
+
+   Example: object -> {func(){alert("java")},
+                       key1: undefined,
+                       [Symbol("No.")]: 11}
+            using JSON.stringify
+            string -> '{}'
+            In this example everything is ignored.
+
+9) JSON vs JSONP
+    i) JSONP stand for JSON with padding.
+    ii) JSONP is JSON with extra code, it is like function call wrapped around
+        the data (JSON) means put a string at the beginning and a pair of parenthesis
+        around it.
+    iii)JSON is used to transmit data from one server to another server while JSONP is used for
+        transmit data to another domain.
+
+10) JSON.stringify()
+    It is Javascript function which convert Javascript object into string.
+    Example: object -> {first: "text", second:23, third: true}
+             string -> "{"first": "text", "second": 23, "third": true}"
+    It is just opposite of JSON.parse() which converts JSON string into Javascript
+     object, if JSON is derived from array it converts into Javascript array.

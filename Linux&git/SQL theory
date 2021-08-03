@@ -1,0 +1,16 @@
+SQL: Structured query language.
+-> DDL: Data definition language.
+Statements are used to define database structure or schema.
+CREATE
+ALTER
+DROP
+RENAME
+-> DML: Data manipulation language.
+Statements used for manipulating  or managing the data within the schema.
+
+Data Science and Data analytics -> SQL
+In SQL, table is collection of data which contains rows and columns to organise it.
+In DBMS term, table is relation and row is tuple.
+DESC table_name: this command is used to get the information about any table in database.
+
+// SQL AS is same as SQL ALIAS;
