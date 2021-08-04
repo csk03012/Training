@@ -38,12 +38,19 @@ INSERT INTO Products VALUES(8, 'Northwoods Cranberry Sauce', 3, 2, 150, 40);
 INSERT INTO Products VALUES(9, 'Mishi Kobe Niku', 4, 4, 230, 97);
 INSERT INTO Products VALUES(10, 'Ikura', 4, 5, 45, 31);
 
--- 1) select * from Products where ProductName like '%ch%';
--- 2) select * from Products where Price > (select avg(Price) from Products);
+-- 1) 
+SELECT * FROM Products WHERE ProductName LIKE '%ch%';
 
--- 3) select Products.ProductName from Products inner join Categories on Categories.CategoryID = Products.CategoryID where Categories.Category
---      Name = 'Condiments';
+-- 2) 
+SELECT * FROM Products WHERE Price > (SELECT AVG(Price) FROM Products);
 
--- 4) select  Categories.CategoryID, Categories.CategoryName, count(Products.CategoryID) from Categories inner join Products on
---    Products.CategoryID = Categories.CategoryID group by Categories.CategoryID;
+-- 3) 
+SELECT Products.ProductName FROM Products INNER JOIN Categories ON Categories.CategoryID = Products.CategoryID WHERE
+Categories.CategoryName = 'Condiments';
 
+-- 4)
+SELECT  Categories.CategoryID, Categories.CategoryName, COUNT(Products.CategoryID) FROM Categories INNER JOIN Products ON
+Products.CategoryID = Categories.CategoryID GROUP BY Categories.CategoryID;
+
+-- 5)
+CREATE INDEX unit_index ON Products (Unit);

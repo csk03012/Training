@@ -1,0 +1,125 @@
+Question: 15)
+slipstream slip stream
+----------------------------------------------------------
+
+Question: 14)
+// two algorithm to calculate factorial;
+
+// 1)
+static int factorial(int n){
+    if (n==0)
+        return 1;
+    else
+        return n*factorial(n-1);
+}
+----------------
+// 2)
+static int factorial(int n){
+    if (n == 0)
+        return 1;
+
+    int ans = 1;
+    for(int i=1; i<=n; i++)
+        ans *= i;
+    return ans;
+}
+------------
+-using int primitive data type will restrict our input to 0<n<=19.
+
+-----------------------------------------------------------------------------
+Question: 13)
+null has 15 mangoes.
+null has 5 mangoes.
+
+------------------------------------------------------------------------------
+Question: 12)
+"toString" method is non-static.
+And "doSomeWork" is static method, because of that it cannot use "toString" method.
+As static method cannot use non-static method.
+
+If "toString" method is static then code is correct but "toString" is overriding method
+from superclass object which is non-static.
+It meas to make "toString" method static is incorrect (it gives compilation error).
+
+----------------------------------------------------------------------------------
+Question: 11)
+
+there is no default constructor in Animal class, and while Animal class inherited
+by its subclass Dog then constructor method of Dog should provide the name of animal
+by using super.
+
+----------------------------------------------
+Question: 10)
+
+static int fib(int n) {
+    if (n==0)
+        return 0;
+    else if (n==1)
+        return 1;
+    else
+        return fib(n-1) + fib(n-2);
+}
+_____________________________________________
+
+Question: 9)
+
+RuntimeException is derived from Exception it means Exception is super class
+of RuntimeException.
+and one more thing is RuntimeException is unchecked Exception while Exception
+(excluding RuntimeException) is checked Exception.
+
+--------------------------------------------------------
+
+Question: 8)
+SaySomethingLouder method is static it cannot use (or referenced)  non-static method or variable.
+as SomethingWrong
+------------------------------------------------------
+Question: 7)
+A class can contain abstract method as well as non-abstract method
+but interface can contain only abstract method.
+
+and instance of class can be created but not for interface.
+-----------------------------------------
+Question: 6)
+
+static int findOccurences(int[] input, int n){
+    int ans = 0;
+    Set<Integer> arr = new HashSet<Integer>();
+    // time done
+    return ans;
+}
+---------------------------------------------------
+Question: 5)
+c1 has 15 apples.
+c2 has 15 apples.
+c1 has 15 mangoes.
+c2 has 20 mangoes.
+
+---------------------------------------------------------
+
+Question: 4)
+b = new A(); is invalid
+here as polymorphism is not holding.
+as both a, b instance can be referenced from object of a
+but object of b can only contain reference of b only.
+because a is superclass of b.
+
+---------------------------------------------------
+
+Question: 3)
+ii) b = (B) a wll fail at runtime.
+Class A can not be casted to Class B.
+----------------------------------------------------
+Question: 2)
+ii) b = a will not compile
+same as question 4;
+a can contain b but b can not contain a;
+both a, b instance can be referenced from object of a
+but object of b can only contain reference of b only.
+
+------------------------------------------------------
+Question: 1)
+
+A says hello
+B says hello
+B says hello

@@ -1,3 +1,5 @@
+package CP;
+
 class CP {
     public static void main(String[] args) {
         String s = "donald";

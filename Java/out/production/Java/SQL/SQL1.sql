@@ -45,7 +45,6 @@ INSERT INTO Employee VALUES(115, 'JKG', 'P189');
 
 
 -- 1)
-P
 SELECT Pid, Pname AS ProjectName FROM Project WHERE pid NOT IN (SELECT pid FROM Employee WHERE pid IS NOT null);
 -- 2)
 SELECT Ename AS EmployeeName FROM Employee WHERE Pid = (SELECT Pid FROM Employee WHERE Ename = 'ABC') AND Ename != 'ABC';
