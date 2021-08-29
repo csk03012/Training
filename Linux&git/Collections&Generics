@@ -1,0 +1,38 @@
+Collection(interface) -> List(interface) -> ArrayList(class).
+-> : It means it extends previous interface or class.
+Btw Collection does not have feature to select or append element with index, so
+use List in place of that.
+i.e.
+Collection<Integer> arr = new ArrayList<>(); // it does not work with indexes.
+List<Integer> arr = new ArrayList<>();// it will work with indexes as List have extra feature in compare to Collection.
+
+there is no get method in class but in List to access element in array.**
+Print element of array with each element at new line: arr.forEach(System.out::println)
+--------------------------------------------------------------------------------------
+and
+Collections(class).
+----------------------------------------
+Vector vs ArrayList
+ArrayList saves lot of memory in comparison to Vector.
+But Vector is synchronized. ThreadSafe.Slow.
+ArrayList is UnSynchronized. Not ThreadSafe. Fast.
+--------------------------------------------------
+LinkedList vs ArrayList
+LinkedList: Dynamic doubly linked list.
+            Add and remove: O(1)
+            fetch element: O(n)
+ArrayList: Dynamic array
+            Add and remove: O(1)
+            fetch element: O(n).
+----------------------------------------------------
+Set Interface:
+1) HashSet: Not in any particular order. it uses hashing concept.
+2) TreeSet: It gives us ascending order of the elements added to the Set.
+---------------------------------------------------
+Map Interface:
+key value pair.
+Map<Integer, String> map = new Map<>();
+------------------------------------------------
+Wildcards in Methods:
+Integer and Double class have super class called Number.
+

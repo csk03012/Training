@@ -1,0 +1,51 @@
+1) C). 2
+-----------
+2) A). public double methoda();
+---------
+3) C). protected (as it allows the class to accessible within same package only)
+---------
+4) a) I, II and III.
+--------------
+5) c) default access
+-----------
+6) d). as it is not must to have a variable to store the returned values.
+------------
+7) b) Boolean
+---------
+8) c) final class
+--------
+9) c) interfaces
+-----------
+10) b) the class should be chocolate and varieties of chocolate should be the objects.
+-----------
+11) This method is accessible from within the class itself and from within all classes
+    defined in the same package as the class itself. ( same as protected class)
+----------
+12) b) I am a Student ( as talk method in Student class overrides the talk method in Person class).
+----------
+13) a) 0 8
+----------------
+14) c) Compilation fails ( as GetResult method cannot be overridden is subclass as it is final)
+----------------
+15) b) false true
+----------------
+16) d) slipstream slip stream
+-------------------
+17) b) Never
+------------
+18) d) 0
+-----------
+19) a) A constructor is called at the time of declaration of an object
+------------------
+20) d) both a and b ( c. number of argument can be different)
+-------------------------
+21) a) Always
+---------------------
+22) b) 20 400 (btw there should be no space between numbers)
+---------------
+23) d) The class which has the default modifier cannot be accessed by all the classes of
+       that particular package ( both a and b is correct) .
+-----------------
+24) c) encapsulation (i.e get and set method of class)
+---------------
+25) a) 2 0
