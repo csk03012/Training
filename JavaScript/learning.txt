@@ -1,0 +1,90 @@
+-- Difference between id and class:
+    class name can be used by multiple HTML elements while 
+    id can be used by only one HTML elements.
+
+-- <label>
+    It is important to lable the input as it helps to toggle 
+    the radio button or checkboxes by clicking on text as well.
+
+--checkboxes and radio type.
+    checkboxes for multiple options and radio for only one option.
+
+------------------------------------------------------------------------------------
+CSS : Cascading style sheet.
+Date: Aug 21 2021.
+
+:) CSS selectors:
+    simple selectors (id, classes)
+
+:) insert CSS:
+    i) external CSS
+    ii) internal CSS
+    iii) inline CSS
+
+:) cascading order-
+    inline has highest priority.
+    
+
+-----------------------------------------------------------------------------------------------------------
+Javascript:
+:) document.write should not be used after html document is loaded
+    because it will delete the all existing html elements.
+    It should be used for testing purpose.
+
+:) re-defining the variable will not lose the value (if it is defined using var but 
+    if it is define using let as it is not allowed.).
+
+:) let keyword provide block scope to variable and var keyword provide global scope to 
+    variable with in the {}.
+
+:) let b = 20;
+    // b = 20;
+    {
+        let b = 30;
+        // b=30;
+    }
+
+    // b=20
+
+:) Hoisting in java script is interesting. (it shouold happen with var keyword)
+    {
+        car = "Nano";
+        var car;
+    }
+
+:) const keyword:
+    i) it can't be redeclared.
+    ii) it can't be reassigned.
+    iii) it have block scope like let.
+
+:) const work as var in terms of Hoisting.
+
+:) javascript datatypes are dynamic.
+    var a = 10;
+    a = "Hello"';
+
+:) javascript interpreter works from left to right.
+    "ans" + 10 + 20 = "ans1020"
+    10 + 20 + "ans" = "30ans"
+
+:) NaN: not a number.
+:) Javascript: Objects: It uses named indexes
+                arrays: It uses number indexes.
+
+:) Javascript function can called before its declaration.
+    but not applicable for function defined using expression.
+
+:) self invoking function:
+    (
+        function (){
+            console.log("Hello World");
+        }
+    )();
+
+:) arrows function
+    const x  = (x, y) => x*y;
+
+:) in javascript we can also store function and objects in variables.
+    and if value assign to variable which is not declared it will becomes automatic global variable.
+
+:) javascript nested function
