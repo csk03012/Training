@@ -1,0 +1,30 @@
+:) Annotations
+    -> It is form of metadata, provide data of program but not the part of program itself.
+    -> Uses:
+        i) info for the compiler
+        ii) Compile-time and deployment time processing.
+        iii) Runtime processing.
+
+    -> @ (it indicates to compiler that it will follow by an annotations.)
+    -> Types of annotations(custom):
+        i)Maker annotations.
+        ii)Single-value annotations.
+        iii)Multiple-value annotations.
+
+    -> Built-in annotations used with custom annotations:
+        @Target
+        @Retention
+        @Inherited
+        @Documented
+
+        use of above-mentioned annotations:
+            - use of target annotations deal with, on which an annotation can be use. i.e field, method etc
+            - use of retention: [source - class - runtime] It allows to retain the annotations upto which stage.
+
+
+    -> Built-in annotations used with java code.
+        @Deprecated
+        @SuppressWarnings
+        @Override
+
+
